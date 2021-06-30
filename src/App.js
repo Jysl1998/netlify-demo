@@ -4,17 +4,21 @@ import './App.css';
 function App() {
   return (
     <div className="App"> 
-        <header>
-          <button class="Button"> About </button>
-          <button class="Button"> Bio </button>
-          <button class="Button"> Background </button>
-          <button class="Button"> Work </button>
+
+        <header className = "Name"> 
+        P R I N T ("H E L L O")
         </header>
+
+        <header className = "Title"> programmer | analyst | designer </header>
+
         <header className = "App-header">
-          <button class="DogButton"> </button>
-          <button class="DesignButton"> </button>
-          <button class="ProjButton"> </button>
+          <button class="projButton"> </button>
+          <button class="expButton"> </button>
+          <button class="journButton"> </button>
         </header>
+
+
+        <p className = "Introduction">Let me tell you about myself!</p>
     </div>
   );
 }

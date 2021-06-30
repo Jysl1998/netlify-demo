@@ -6,6 +6,8 @@
   width: auto;
   height: 820px;
   background-size: cover;
+  background:#F0F0EF; 
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -23,10 +25,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 1;
-  /* background:#F0F0EF; */
-  background:url(./images/bg1.png) no-repeat;
-  background-size: 100%;
+  flex: 2;
+  background:#F0F0EF; 
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .App-link {
@@ -44,69 +46,72 @@
 
 /*Macaron Buttons Intro*/
 
-.DogButton{
-  background:url(./images/dog.png) no-repeat;
+.projButton{
+  background:url(./images/projButton.png) no-repeat;
   cursor:pointer;
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 50%;
   transform: scale(0.25,0.25);
   border: none;
   flex: 1;
 }
 
-.DesignButton{
-  background:url(./images/design.png) no-repeat;
+.expButton{
+  background:url(./images/expButton.png) no-repeat;
   cursor:pointer;
-  width: 500px;
-  height: 500px;
-  transform: scale(0.25,0.25);
-  border: none;
-  flex: 1;
-  margin-left: -200px;
-}
-
-.ProjButton{
-  background:url(./images/project.png) no-repeat;
-  cursor:pointer;
-  width: 500px;
-  height: 500px;
+  width: 50%;
+  height: 50%;
   transform: scale(0.25,0.25);
   border: none;
   flex: 1;
   margin-left: -200px;
 }
 
-.DogButton:hover
-{   
-  transform: scale(0.35,0.35);
-}
-
-.DesignButton:hover
-{   
-  transform: scale(0.35,0.35);
-}
-
-.ProjButton:hover
-{   
-  transform: scale(0.35,0.35);
-}
-
-/*End of Macaron Buttons Intro*/
-
-.Button{
-  background-color: #F7F0E3;
-  font-family: "Courier New";
-  font-weight: bolder;
-  font-size: 18px;
-  color: #565656;
+.journButton{
+  background:url(./images/journButton.png) no-repeat;
   cursor:pointer;
-  width: 360px;
-  height: 100px;
+  width: 50%;
+  height: 50%;
+  transform: scale(0.25,0.25);
   border: none;
-  flex: 2;
+  flex: 1;
+  margin-left: -200px;
 }
 
-.Button:hover
-{
-  opacity: 50%;
+.projButton:hover
+{   
+  transform: scale(0.35,0.35);
+}
+
+.expButton:hover
+{   
+  transform: scale(0.35,0.35);
+}
+
+.journButton:hover
+{   
+  transform: scale(0.35,0.35);
+}
+
+.Name{
+  font-size: 200%;
+  margin-top: 1%;
+  width: 100%;
+  height: 5%;
+  font-family: "Trebuchet MS";
+  background:#F0F0EF; 
+  color: #717171;
+}
+
+.Title{
+  font-size: 90%;
+  color: #5E5E5E;
+  font-family: "Trebuchet MS";
+}
+
+.Introduction{
+  font-size: 200%;
+  color: gray;
+  margin-top: -10%;
+  font-family: "Trebuchet MS";
 }
